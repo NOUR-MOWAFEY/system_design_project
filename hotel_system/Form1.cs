@@ -23,8 +23,6 @@ namespace hotel_system
        
         }
 
-     
-
         private void username_textbox_Enter(object sender, EventArgs e)
         {
             if (username_textbox.Text == "Username")
@@ -41,18 +39,12 @@ namespace hotel_system
                 username_textbox.ForeColor = Color.Gray;
             }
         }
-
-        private void username_textbox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-      
+        
         private void password_textbox_Enter(object sender, EventArgs e)
         {
             if (password_textbox.Text == "Password")
             {
-                password_textbox.UseSystemPasswordChar = true;
+                password_textbox.PasswordChar = '•';
                 password_textbox.Text = "";
                 password_textbox.ForeColor = Color.Black;
 
@@ -61,26 +53,16 @@ namespace hotel_system
 
         private void password_textbox_Leave(object sender, EventArgs e)
         {
-                
+
             if (password_textbox.Text == "")
             {
 
-                password_textbox.UseSystemPasswordChar = false;
+                password_textbox.PasswordChar = '\0';
                 password_textbox.Text = "Password";
                 password_textbox.ForeColor = Color.Gray;
             }
-        }
-
-        private void kryptonButton2_Click(object sender, EventArgs e)
-        {
 
         }
 
-        private void password_textbox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-      
     }
 }

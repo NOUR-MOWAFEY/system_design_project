@@ -74,7 +74,7 @@
             // username_textbox
             // 
             this.username_textbox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.username_textbox.Location = new System.Drawing.Point(235, 170);
+            this.username_textbox.Location = new System.Drawing.Point(235, 160);
             this.username_textbox.Name = "username_textbox";
             this.username_textbox.Size = new System.Drawing.Size(331, 52);
             this.username_textbox.StateCommon.Back.Color1 = System.Drawing.Color.White;
@@ -95,7 +95,7 @@
             // password_textbox
             // 
             this.password_textbox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.password_textbox.Location = new System.Drawing.Point(235, 228);
+            this.password_textbox.Location = new System.Drawing.Point(235, 218);
             this.password_textbox.Name = "password_textbox";
             this.password_textbox.Size = new System.Drawing.Size(331, 52);
             this.password_textbox.StateCommon.Back.Color1 = System.Drawing.Color.White;
@@ -115,7 +115,7 @@
             // 
             // kryptonButton1
             // 
-            this.kryptonButton1.Location = new System.Drawing.Point(236, 306);
+            this.kryptonButton1.Location = new System.Drawing.Point(236, 302);
             this.kryptonButton1.Name = "kryptonButton1";
             this.kryptonButton1.OverrideDefault.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(140)))), ((int)(((byte)(255)))));
             this.kryptonButton1.OverrideDefault.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(140)))), ((int)(((byte)(255)))));
@@ -166,7 +166,7 @@
             // 
             // kryptonButton2
             // 
-            this.kryptonButton2.Location = new System.Drawing.Point(362, 368);
+            this.kryptonButton2.Location = new System.Drawing.Point(362, 360);
             this.kryptonButton2.Name = "kryptonButton2";
             this.kryptonButton2.OverrideDefault.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.kryptonButton2.OverrideDefault.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
@@ -225,11 +225,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Lemonada", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Lucida Calligraphy", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(327, 52);
+            this.label1.Location = new System.Drawing.Point(314, 49);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(147, 74);
+            this.label1.Size = new System.Drawing.Size(173, 62);
             this.label1.TabIndex = 8;
             this.label1.Text = "Login";
             // 

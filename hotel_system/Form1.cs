@@ -19,16 +19,14 @@ namespace hotel_system
         }
 
         private void Form1_Load(object sender, EventArgs e)
-        {
-       
-        }
+        {}
 
         private void username_textbox_Enter(object sender, EventArgs e)
         {
             if (username_textbox.Text == "Username")
             {
                 username_textbox.Text = "";
-                username_textbox.ForeColor = Color.Gray;
+                username_textbox.ForeColor = Color.Black;
             }
         }
 
@@ -36,7 +34,7 @@ namespace hotel_system
         {
             if (username_textbox.Text == "") {
                 username_textbox.Text = "Username";
-                username_textbox.ForeColor = Color.Gray;
+                username_textbox.ForeColor = Color.Black;
             }
         }
         
@@ -47,7 +45,6 @@ namespace hotel_system
                 password_textbox.PasswordChar = '•';
                 password_textbox.Text = "";
                 password_textbox.ForeColor = Color.Black;
-
             }
         }
 
@@ -56,10 +53,9 @@ namespace hotel_system
 
             if (password_textbox.Text == "")
             {
-
                 password_textbox.PasswordChar = '\0';
                 password_textbox.Text = "Password";
-                password_textbox.ForeColor = Color.Gray;
+                password_textbox.ForeColor = Color.Black;
             }
 
         }

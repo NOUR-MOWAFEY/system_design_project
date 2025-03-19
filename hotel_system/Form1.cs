@@ -22,9 +22,7 @@ namespace hotel_system
         }
 
         private void Form1_Load(object sender, EventArgs e)
-        {
-            
-        }
+        {}
 
         private void username_textbox_Enter(object sender, EventArgs e)
         {
@@ -70,6 +68,7 @@ namespace hotel_system
             
             HomeForm homeForm1 = new HomeForm();
             homeForm1.Show();
+            this.Hide();
             //SqlCommand("", con);
             //SignForm signForm = new SignForm();
             //signForm.Show();

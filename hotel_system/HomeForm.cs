@@ -8,12 +8,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ComponentFactory.Krypton.Toolkit;
 
 
 
 namespace hotel_system
 {
-    public partial class HomeForm: Form
+    public partial class HomeForm: KryptonForm
     {
         //DataSet ds = new DataSet();
         //SqlDataAdapter da;
@@ -39,6 +40,11 @@ namespace hotel_system
             //da.Fill(ds, "users");
             //HomeForm homeForm = new HomeForm();
             //showData.DataSource = ds.Tables["users"];
+        }
+
+        private void HomeForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

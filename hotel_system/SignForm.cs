@@ -8,22 +8,20 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ComponentFactory.Krypton.Toolkit;
-using System.Data.SqlClient;
 
 namespace hotel_system
 {
-    public partial class Form1: KryptonForm
+    public partial class SignForm: KryptonForm
     {
 
-        
-        public Form1()
+        public SignForm()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void SignForm_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         private void username_textbox_Enter(object sender, EventArgs e)
@@ -37,12 +35,13 @@ namespace hotel_system
 
         private void username_textbox_Leave(object sender, EventArgs e)
         {
-            if (username_textbox.Text == "") {
+            if (username_textbox.Text == "")
+            {
                 username_textbox.Text = "Username";
                 username_textbox.ForeColor = Color.Black;
             }
         }
-        
+
         private void password_textbox_Enter(object sender, EventArgs e)
         {
             if (password_textbox.Text == "Password")
@@ -68,15 +67,16 @@ namespace hotel_system
         private void kryptonButton1_Click(object sender, EventArgs e)
         {
             
-            HomeForm homeForm1 = new HomeForm();
-            homeForm1.Show();
-            //SqlCommand("", con);
-            //SignForm signForm = new SignForm();
-            //signForm.Show();
-            //this.Hide();
         }
 
-        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        private void kryptonButton2_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            form1.Show();
+            this.Hide();
+        }
+
+        private void SignForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
         }
@@ -84,13 +84,6 @@ namespace hotel_system
         private void kryptonDataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
-        }
-
-        private void kryptonButton2_Click(object sender, EventArgs e)
-        {
-            SignForm signForm = new SignForm();
-            signForm.Show();
-            this.Hide();
         }
     }
 }

@@ -22,11 +22,6 @@ D:\M.E.T\projects\SystemDesign\hotel_system\obj\Debug\hotel_system.pdb
 D:\M.E.T\projects\system_design_project\hotel_system\bin\Debug\hotel_system.exe.config
 D:\M.E.T\projects\system_design_project\hotel_system\bin\Debug\hotel_system.exe
 D:\M.E.T\projects\system_design_project\hotel_system\bin\Debug\hotel_system.pdb
-D:\M.E.T\projects\system_design_project\hotel_system\bin\Debug\ComponentFactory.Krypton.Docking.dll
-D:\M.E.T\projects\system_design_project\hotel_system\bin\Debug\ComponentFactory.Krypton.Navigator.dll
-D:\M.E.T\projects\system_design_project\hotel_system\bin\Debug\ComponentFactory.Krypton.Ribbon.dll
-D:\M.E.T\projects\system_design_project\hotel_system\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
-D:\M.E.T\projects\system_design_project\hotel_system\bin\Debug\ComponentFactory.Krypton.Workspace.dll
 D:\M.E.T\projects\system_design_project\hotel_system\bin\Debug\ComponentFactory.Krypton.Docking.pdb
 D:\M.E.T\projects\system_design_project\hotel_system\bin\Debug\ComponentFactory.Krypton.Navigator.pdb
 D:\M.E.T\projects\system_design_project\hotel_system\bin\Debug\ComponentFactory.Krypton.Ribbon.pdb
@@ -40,3 +35,5 @@ D:\M.E.T\projects\system_design_project\hotel_system\obj\Debug\hotel_system.cspr
 D:\M.E.T\projects\system_design_project\hotel_system\obj\Debug\hotel_sy.D4D70986.Up2Date
 D:\M.E.T\projects\system_design_project\hotel_system\obj\Debug\hotel_system.exe
 D:\M.E.T\projects\system_design_project\hotel_system\obj\Debug\hotel_system.pdb
+D:\M.E.T\projects\system_design_project\hotel_system\obj\Debug\hotel_system.SignForm.resources
+D:\M.E.T\projects\system_design_project\hotel_system\obj\Debug\hotel_system.HomeForm.resources

@@ -80,7 +80,7 @@ namespace hotel_system
 
             if(username_textbox.Text == "Username" || password_textbox.Text == "Password") 
             {
-                MessageBox.Show("All Fields must be filled in", "Error Message" , MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("All Fields must be filled in", "Information Message" , MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }
 

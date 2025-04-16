@@ -112,45 +112,53 @@ namespace hotel_system
                 MessageBox.Show("All Fields must be filled in", "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
 
-            else if (username_textbox.Text.Length <= 4 || username_textbox.Text.Any(char.IsLetter) == false)
+            else if (username_textbox.Text.Length <= 4 || username_textbox.Text.Any(char.IsLetter) == false || password_textbox.Text.Length <= 4)
             {
-                MessageBox.Show("Username must have more than 5 characters and have atleast on letter", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Username and password must have more than 5 characters and username must have atleast one letter", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
             else 
             {
-                string checkQuery = "SELECT username FROM users WHERE username = @username";
-
-                using (SqlCommand checkUsername = new SqlCommand(checkQuery, conn))
+                if (password_textbox.Text == confirm_password.Text) 
                 {
-                    checkUsername.Parameters.AddWithValue("@username", username_textbox.Text.Trim());
-                    da = new SqlDataAdapter(checkUsername);
-                    DataTable table = new DataTable();
-                    da.Fill(table);
+                    string checkQuery = "SELECT username FROM users WHERE username = @username";
 
-                    if (table.Rows.Count >= 1)
+                    using (SqlCommand checkUsername = new SqlCommand(checkQuery, conn))
                     {
-                        MessageBox.Show(username_textbox.Text + " is already exist", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
-                    else
-                    {
-                        string insertQuery = "insert into users(username, password) values(@username, @password)";
+                        checkUsername.Parameters.AddWithValue("@username", username_textbox.Text.Trim());
+                        da = new SqlDataAdapter(checkUsername);
+                        DataTable table = new DataTable();
+                        da.Fill(table);
 
-                        using (SqlCommand cmd = new SqlCommand(insertQuery, conn))
+                        if (table.Rows.Count >= 1)
                         {
-                            cmd.Parameters.AddWithValue("@username", username_textbox.Text.Trim());
-                            cmd.Parameters.AddWithValue("@password", password_textbox.Text.Trim());
+                            MessageBox.Show(username_textbox.Text + " is already exist", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                        else
+                        {
+                            string insertQuery = "insert into users(username, password) values(@username, @password)";
 
-                            cmd.ExecuteNonQuery();
+                            using (SqlCommand cmd = new SqlCommand(insertQuery, conn))
+                            {
+                                cmd.Parameters.AddWithValue("@username", username_textbox.Text.Trim());
+                                cmd.Parameters.AddWithValue("@password", password_textbox.Text.Trim());
 
-                            MessageBox.Show("User Added Successfully", "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                cmd.ExecuteNonQuery();
 
-                            Form1 form1 = new Form1();
-                            form1.Show();
-                            this.Hide();
+                                MessageBox.Show("User Added Successfully", "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
+                                Form1 form1 = new Form1();
+                                form1.Show();
+                                this.Hide();
+
+                            }
                         }
                     }
+                
+                }
+                else
+                {
+                    MessageBox.Show("Password does not match with confirm field", "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
 
@@ -158,7 +166,6 @@ namespace hotel_system
 
             
         }
-
-        }
+    }
     }
 

@@ -3,32 +3,8 @@
   "WorkspaceRootPath": "D:\\M.E.T\\projects\\system_design_project\\hotel_system\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D28BBEE6-9462-4E4F-B07A-FD4333E3229B}|hotel_system.csproj|D:\\M.E.T\\projects\\system_design_project\\hotel_system\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D28BBEE6-9462-4E4F-B07A-FD4333E3229B}|hotel_system.csproj|d:\\m.e.t\\projects\\system_design_project\\hotel_system\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D28BBEE6-9462-4E4F-B07A-FD4333E3229B}|hotel_system.csproj|solutionrelative:homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D28BBEE6-9462-4E4F-B07A-FD4333E3229B}|hotel_system.csproj|D:\\M.E.T\\projects\\system_design_project\\hotel_system\\signform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D28BBEE6-9462-4E4F-B07A-FD4333E3229B}|hotel_system.csproj|solutionrelative:signform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D28BBEE6-9462-4E4F-B07A-FD4333E3229B}|hotel_system.csproj|d:\\m.e.t\\projects\\system_design_project\\hotel_system\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D28BBEE6-9462-4E4F-B07A-FD4333E3229B}|hotel_system.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D28BBEE6-9462-4E4F-B07A-FD4333E3229B}|hotel_system.csproj|D:\\M.E.T\\projects\\system_design_project\\hotel_system\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D28BBEE6-9462-4E4F-B07A-FD4333E3229B}|hotel_system.csproj|solutionrelative:homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D28BBEE6-9462-4E4F-B07A-FD4333E3229B}|hotel_system.csproj|D:\\M.E.T\\projects\\system_design_project\\hotel_system\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D28BBEE6-9462-4E4F-B07A-FD4333E3229B}|hotel_system.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D28BBEE6-9462-4E4F-B07A-FD4333E3229B}|hotel_system.csproj|D:\\M.E.T\\projects\\system_design_project\\hotel_system\\signform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D28BBEE6-9462-4E4F-B07A-FD4333E3229B}|hotel_system.csproj|solutionrelative:signform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D28BBEE6-9462-4E4F-B07A-FD4333E3229B}|hotel_system.csproj|D:\\M.E.T\\projects\\system_design_project\\hotel_system\\homeform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D28BBEE6-9462-4E4F-B07A-FD4333E3229B}|hotel_system.csproj|solutionrelative:homeform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,95 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeForm.cs",
-              "DocumentMoniker": "D:\\M.E.T\\projects\\system_design_project\\hotel_system\\HomeForm.cs",
-              "RelativeDocumentMoniker": "HomeForm.cs",
-              "ToolTip": "D:\\M.E.T\\projects\\system_design_project\\hotel_system\\HomeForm.cs",
-              "RelativeToolTip": "HomeForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T06:56:21.545Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "HomeForm.cs [Design]",
               "DocumentMoniker": "D:\\M.E.T\\projects\\system_design_project\\hotel_system\\HomeForm.cs",
               "RelativeDocumentMoniker": "HomeForm.cs",
-              "ToolTip": "D:\\M.E.T\\projects\\system_design_project\\hotel_system\\HomeForm.cs [Design]",
-              "RelativeToolTip": "HomeForm.cs [Design]",
+              "ToolTip": "D:\\M.E.T\\projects\\system_design_project\\hotel_system\\HomeForm.cs [Design]*",
+              "RelativeToolTip": "HomeForm.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-19T06:55:38.772Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SignForm.cs",
-              "DocumentMoniker": "D:\\M.E.T\\projects\\system_design_project\\hotel_system\\SignForm.cs",
-              "RelativeDocumentMoniker": "SignForm.cs",
-              "ToolTip": "D:\\M.E.T\\projects\\system_design_project\\hotel_system\\SignForm.cs",
-              "RelativeToolTip": "SignForm.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAAwEQAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T19:46:26.205Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\M.E.T\\projects\\system_design_project\\hotel_system\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\M.E.T\\projects\\system_design_project\\hotel_system\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T18:34:50.082Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SignForm.cs [Design]",
-              "DocumentMoniker": "D:\\M.E.T\\projects\\system_design_project\\hotel_system\\SignForm.cs",
-              "RelativeDocumentMoniker": "SignForm.cs",
-              "ToolTip": "D:\\M.E.T\\projects\\system_design_project\\hotel_system\\SignForm.cs [Design]",
-              "RelativeToolTip": "SignForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T19:46:22.28Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\M.E.T\\projects\\system_design_project\\hotel_system\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\M.E.T\\projects\\system_design_project\\hotel_system\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T18:26:08.838Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HomeForm.Designer.cs",
-              "DocumentMoniker": "D:\\M.E.T\\projects\\system_design_project\\hotel_system\\HomeForm.Designer.cs",
-              "RelativeDocumentMoniker": "HomeForm.Designer.cs",
-              "ToolTip": "D:\\M.E.T\\projects\\system_design_project\\hotel_system\\HomeForm.Designer.cs",
-              "RelativeToolTip": "HomeForm.Designer.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAwDsAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T06:57:06.882Z",
-              "EditorCaption": ""
             }
           ]
         }

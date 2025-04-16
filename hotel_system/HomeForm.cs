@@ -46,5 +46,16 @@ namespace hotel_system
         {
             Application.Exit();
         }
+
+
+        private void kryptonButton1_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void kryptonButton3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

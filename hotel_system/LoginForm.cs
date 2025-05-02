@@ -16,7 +16,7 @@ namespace hotel_system
     {
 
         DataSet ds = new DataSet();
-        SqlDataAdapter da;
+        //SqlDataAdapter da;
         SqlConnection conn;
 
         public LoginForm()

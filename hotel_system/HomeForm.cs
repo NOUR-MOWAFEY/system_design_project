@@ -32,6 +32,8 @@ namespace hotel_system
 
         private void HomeForm_Load(object sender, EventArgs e)
         {
+            //admin_AddUser1.Visible = false;
+            //admin_Rooms1.Visible = false;
             //string strConnection = "data source = NourMowafey; initial catalog = master; integrated security = true";
             //con = new SqlConnection(strConnection);
             //con.Open();
@@ -68,6 +70,18 @@ namespace hotel_system
             LoginForm loginForm = new LoginForm();
             loginForm.Show();
             this.Hide();
+        }
+
+        private void rooms_button_Click(object sender, EventArgs e)
+        {
+         //   admin_Rooms1.Visible = true;
+            //admin_AddUser1.Visible = false;
+        }
+
+        private void users_button_Click(object sender, EventArgs e)
+        {
+            //admin_Rooms1.Visible = false;
+            //admin_AddUser1.Visible = true;
         }
     }
 }

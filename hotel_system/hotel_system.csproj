@@ -62,6 +62,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin_AddUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Admin_AddUser.Designer.cs">
+      <DependentUpon>Admin_AddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Dashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Admin_Dashboard.Designer.cs">
+      <DependentUpon>Admin_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Rooms.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Admin_Rooms.Designer.cs">
+      <DependentUpon>Admin_Rooms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Book_Room.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Book_Room.Designer.cs">
+      <DependentUpon>Book_Room.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Client_Data.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Client_Data.Designer.cs">
+      <DependentUpon>Client_Data.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +117,21 @@
     <Compile Include="SignForm.Designer.cs">
       <DependentUpon>SignForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Admin_AddUser.resx">
+      <DependentUpon>Admin_AddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Dashboard.resx">
+      <DependentUpon>Admin_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Rooms.resx">
+      <DependentUpon>Admin_Rooms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Book_Room.resx">
+      <DependentUpon>Book_Room.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client_Data.resx">
+      <DependentUpon>Client_Data.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>

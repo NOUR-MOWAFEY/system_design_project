@@ -12,14 +12,14 @@ using System.Data.SqlClient;
 
 namespace hotel_system
 {
-    public partial class Form1: KryptonForm
+    public partial class LoginForm: KryptonForm
     {
 
         DataSet ds = new DataSet();
         SqlDataAdapter da;
         SqlConnection conn;
 
-        public Form1()
+        public LoginForm()
         {
             InitializeComponent();
             mainText.Select();
@@ -73,40 +73,44 @@ namespace hotel_system
 
         private void kryptonButton1_Click(object sender, EventArgs e)
         {
-            string username, password;
 
-            username = username_textbox.Text;
-            password = password_textbox.Text;
+            HomeForm homeForm = new HomeForm();
+            homeForm.Show();
+            this.Hide();
+            //    string username, password;
 
-            if(username_textbox.Text == "Username" || password_textbox.Text == "Password") 
-            {
-                MessageBox.Show("All Fields must be filled in", "Information Message" , MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //    username = username_textbox.Text;
+            //    password = password_textbox.Text;
 
-            }
+            //    if(username_textbox.Text == "Username" || password_textbox.Text == "Password") 
+            //    {
+            //        MessageBox.Show("All Fields must be filled in", "Information Message" , MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-            else
-            {
+            //    }
+
+            //    else
+            //    {
 
 
-                string query = "SELECT COUNT(*) FROM users WHERE username = @username AND password = @password";
-                SqlCommand cmd = new SqlCommand(query, conn);
-                cmd.Parameters.AddWithValue("@username", username_textbox.Text);
-                cmd.Parameters.AddWithValue("@password", password_textbox.Text);
+            //        string query = "SELECT COUNT(*) FROM users WHERE username = @username AND password = @password";
+            //        SqlCommand cmd = new SqlCommand(query, conn);
+            //        cmd.Parameters.AddWithValue("@username", username_textbox.Text);
+            //        cmd.Parameters.AddWithValue("@password", password_textbox.Text);
 
-                int count = (int)cmd.ExecuteScalar();
+            //        int count = (int)cmd.ExecuteScalar();
 
-                if (count > 0)
-                {
-                    HomeForm homeForm1 = new HomeForm();
-                    homeForm1.Show();
-                    this.Hide();
-                }
-                else
-                {
-                    MessageBox.Show("Invalid Username Or Password", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
+            //        if (count > 0)
+            //        {
+            //            HomeForm homeForm1 = new HomeForm();
+            //            homeForm1.Show();
+            //            this.Hide();
+            //        }
+            //        else
+            //        {
+            //            MessageBox.Show("Invalid Username Or Password", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //        }
 
-            }
+            //    }
 
         }
 

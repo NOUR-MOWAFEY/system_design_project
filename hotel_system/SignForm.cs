@@ -94,7 +94,7 @@ namespace hotel_system
 
         private void signin_button_Click(object sender, EventArgs e)
         {
-            Form1 form1 = new Form1();
+            LoginForm form1 = new LoginForm();
             form1.Show();
             this.Hide();
         }
@@ -147,7 +147,7 @@ namespace hotel_system
 
                                 MessageBox.Show("User Added Successfully", "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                                Form1 form1 = new Form1();
+                                LoginForm form1 = new LoginForm();
                                 form1.Show();
                                 this.Hide();
 

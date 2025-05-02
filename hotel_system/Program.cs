@@ -16,7 +16,7 @@ namespace hotel_system
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Form1 form1 = new Form1();
+            LoginForm form1 = new LoginForm();
             form1.Show();
             Application.Run();
         }

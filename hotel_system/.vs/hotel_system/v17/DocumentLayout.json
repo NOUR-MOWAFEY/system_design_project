@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\NourMowafey\\Desktop\\Hotel_ONE\\system_design_project\\hotel_system\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D28BBEE6-9462-4E4F-B07A-FD4333E3229B}|hotel_system.csproj|C:\\Users\\NourMowafey\\Desktop\\Hotel_ONE\\system_design_project\\hotel_system\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D28BBEE6-9462-4E4F-B07A-FD4333E3229B}|hotel_system.csproj|c:\\users\\nourmowafey\\desktop\\hotel_one\\system_design_project\\hotel_system\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D28BBEE6-9462-4E4F-B07A-FD4333E3229B}|hotel_system.csproj|solutionrelative:homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D28BBEE6-9462-4E4F-B07A-FD4333E3229B}|hotel_system.csproj|C:\\Users\\NourMowafey\\Desktop\\Hotel_ONE\\system_design_project\\hotel_system\\client_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D28BBEE6-9462-4E4F-B07A-FD4333E3229B}|hotel_system.csproj|solutionrelative:client_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D28BBEE6-9462-4E4F-B07A-FD4333E3229B}|hotel_system.csproj|C:\\Users\\NourMowafey\\Desktop\\Hotel_ONE\\system_design_project\\hotel_system\\book_room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D28BBEE6-9462-4E4F-B07A-FD4333E3229B}|hotel_system.csproj|solutionrelative:book_room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D28BBEE6-9462-4E4F-B07A-FD4333E3229B}|hotel_system.csproj|c:\\users\\nourmowafey\\desktop\\hotel_one\\system_design_project\\hotel_system\\book_room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D28BBEE6-9462-4E4F-B07A-FD4333E3229B}|hotel_system.csproj|C:\\Users\\NourMowafey\\Desktop\\Hotel_ONE\\system_design_project\\hotel_system\\book_room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D28BBEE6-9462-4E4F-B07A-FD4333E3229B}|hotel_system.csproj|solutionrelative:book_room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D28BBEE6-9462-4E4F-B07A-FD4333E3229B}|hotel_system.csproj|C:\\Users\\NourMowafey\\Desktop\\Hotel_ONE\\system_design_project\\hotel_system\\admin_adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D28BBEE6-9462-4E4F-B07A-FD4333E3229B}|hotel_system.csproj|solutionrelative:admin_adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,31 +22,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\NourMowafey\\Desktop\\Hotel_ONE\\system_design_project\\hotel_system\\HomeForm.cs",
-              "RelativeDocumentMoniker": "HomeForm.cs",
-              "ToolTip": "C:\\Users\\NourMowafey\\Desktop\\Hotel_ONE\\system_design_project\\hotel_system\\HomeForm.cs [Design]",
-              "RelativeToolTip": "HomeForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T18:55:12.912Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Client_Data.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\NourMowafey\\Desktop\\Hotel_ONE\\system_design_project\\hotel_system\\Client_Data.cs",
-              "RelativeDocumentMoniker": "Client_Data.cs",
-              "ToolTip": "C:\\Users\\NourMowafey\\Desktop\\Hotel_ONE\\system_design_project\\hotel_system\\Client_Data.cs [Design]",
-              "RelativeToolTip": "Client_Data.cs [Design]",
+              "Title": "Book_Room.cs",
+              "DocumentMoniker": "C:\\Users\\NourMowafey\\Desktop\\Hotel_ONE\\system_design_project\\hotel_system\\Book_Room.cs",
+              "RelativeDocumentMoniker": "Book_Room.cs",
+              "ToolTip": "C:\\Users\\NourMowafey\\Desktop\\Hotel_ONE\\system_design_project\\hotel_system\\Book_Room.cs",
+              "RelativeToolTip": "Book_Room.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T18:13:24.228Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-05T17:29:22.238Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -61,19 +46,19 @@
               "ToolTip": "C:\\Users\\NourMowafey\\Desktop\\Hotel_ONE\\system_design_project\\hotel_system\\Book_Room.cs [Design]",
               "RelativeToolTip": "Book_Room.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T17:51:12.099Z",
+              "WhenOpened": "2025-05-05T17:28:18.298Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Admin_AddUser.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\NourMowafey\\Desktop\\Hotel_ONE\\system_design_project\\hotel_system\\Admin_AddUser.cs",
-              "RelativeDocumentMoniker": "Admin_AddUser.cs",
-              "ToolTip": "C:\\Users\\NourMowafey\\Desktop\\Hotel_ONE\\system_design_project\\hotel_system\\Admin_AddUser.cs [Design]*",
-              "RelativeToolTip": "Admin_AddUser.cs [Design]*",
+              "DocumentIndex": 0,
+              "Title": "HomeForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\NourMowafey\\Desktop\\Hotel_ONE\\system_design_project\\hotel_system\\HomeForm.cs",
+              "RelativeDocumentMoniker": "HomeForm.cs",
+              "ToolTip": "C:\\Users\\NourMowafey\\Desktop\\Hotel_ONE\\system_design_project\\hotel_system\\HomeForm.cs [Design]",
+              "RelativeToolTip": "HomeForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T16:02:34.326Z",
+              "WhenOpened": "2025-05-05T17:26:53.653Z",
               "EditorCaption": " [Design]"
             }
           ]

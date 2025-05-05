@@ -229,7 +229,7 @@
             this.kryptonButton2.StateTracking.Border.Rounding = 20;
             this.kryptonButton2.StateTracking.Border.Width = 1;
             this.kryptonButton2.TabIndex = 74;
-            this.kryptonButton2.Values.Text = "Book";
+            this.kryptonButton2.Values.Text = "Done";
             // 
             // label1
             // 

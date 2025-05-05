@@ -136,7 +136,7 @@ namespace hotel_system
                         }
                         else
                         {
-                            string insertQuery = "insert into users(username, password) values(@username, @password)";
+                            string insertQuery = "insert into users(username, password, role) values(@username, @password, 'user')";
 
                             using (SqlCommand cmd = new SqlCommand(insertQuery, conn))
                             {

@@ -12,6 +12,7 @@ namespace hotel_system
         DataSet ds = new DataSet();
         SqlDataAdapter da;
         SqlConnection conn;
+        string strconn = "Data Source=NOURMOWAFEY;Initial Catalog=hotel_management;Integrated Security=True";
 
         public Admin_AddUser()
         {
@@ -20,7 +21,6 @@ namespace hotel_system
 
         private void Admin_AddUser_Load(object sender, EventArgs e)
         {
-            string strconn = "Data Source=NOURMOWAFEY;Initial Catalog=hotel_management;Integrated Security=True";
             conn = new SqlConnection(strconn);
             conn.Open();
             RefreshUserGrid();

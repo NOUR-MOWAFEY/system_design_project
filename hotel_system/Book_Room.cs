@@ -16,5 +16,14 @@ namespace hotel_system
         {
             InitializeComponent();
         }
+
+        private void Book_Room_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        public void displayRooms()
+        {
+        }
     }
 }

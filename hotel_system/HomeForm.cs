@@ -14,7 +14,7 @@ using ComponentFactory.Krypton.Toolkit;
 
 namespace hotel_system
 {
-    public partial class HomeForm: KryptonForm
+    public partial class HomeForm : KryptonForm
     {
         //DataSet ds = new DataSet();
         //SqlDataAdapter da;
@@ -27,7 +27,7 @@ namespace hotel_system
 
         void showData_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            
+
         }
 
         private void HomeForm_Load(object sender, EventArgs e)
@@ -49,17 +49,6 @@ namespace hotel_system
             Application.Exit();
         }
 
-
-        private void kryptonButton1_Click_1(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
-        private void kryptonButton3_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void exit_button_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -74,7 +63,7 @@ namespace hotel_system
 
         private void rooms_button_Click(object sender, EventArgs e)
         {
-         //   admin_Rooms1.Visible = true;
+            //admin_Rooms1.Visible = true;
             //admin_AddUser1.Visible = false;
         }
 

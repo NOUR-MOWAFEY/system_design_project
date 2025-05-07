@@ -140,7 +140,7 @@
             this.roomPrice.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.roomPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.roomPrice.ForeColor = System.Drawing.Color.White;
-            this.roomPrice.Location = new System.Drawing.Point(78, 69);
+            this.roomPrice.Location = new System.Drawing.Point(77, 69);
             this.roomPrice.Name = "roomPrice";
             this.roomPrice.Size = new System.Drawing.Size(49, 20);
             this.roomPrice.TabIndex = 31;
@@ -153,7 +153,7 @@
             this.roomStatus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.roomStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.roomStatus.ForeColor = System.Drawing.Color.White;
-            this.roomStatus.Location = new System.Drawing.Point(186, 38);
+            this.roomStatus.Location = new System.Drawing.Point(190, 38);
             this.roomStatus.Name = "roomStatus";
             this.roomStatus.Size = new System.Drawing.Size(49, 20);
             this.roomStatus.TabIndex = 30;
@@ -166,7 +166,7 @@
             this.roomBedsNo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.roomBedsNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.roomBedsNo.ForeColor = System.Drawing.Color.White;
-            this.roomBedsNo.Location = new System.Drawing.Point(78, 38);
+            this.roomBedsNo.Location = new System.Drawing.Point(77, 38);
             this.roomBedsNo.Name = "roomBedsNo";
             this.roomBedsNo.Size = new System.Drawing.Size(49, 20);
             this.roomBedsNo.TabIndex = 29;
@@ -179,7 +179,7 @@
             this.roomID.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.roomID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.roomID.ForeColor = System.Drawing.Color.White;
-            this.roomID.Location = new System.Drawing.Point(78, 10);
+            this.roomID.Location = new System.Drawing.Point(77, 10);
             this.roomID.Name = "roomID";
             this.roomID.Size = new System.Drawing.Size(49, 20);
             this.roomID.TabIndex = 28;
@@ -192,7 +192,7 @@
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(29, 69);
+            this.label4.Location = new System.Drawing.Point(28, 69);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(48, 20);
             this.label4.TabIndex = 27;
@@ -205,11 +205,11 @@
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(126, 38);
+            this.label3.Location = new System.Drawing.Point(140, 38);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 20);
+            this.label3.Size = new System.Drawing.Size(50, 20);
             this.label3.TabIndex = 26;
-            this.label3.Text = "Status:";
+            this.label3.Text = "From:";
             // 
             // label2
             // 
@@ -218,7 +218,7 @@
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(27, 38);
+            this.label2.Location = new System.Drawing.Point(26, 38);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(50, 20);
             this.label2.TabIndex = 25;
@@ -231,7 +231,7 @@
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(47, 10);
+            this.label1.Location = new System.Drawing.Point(46, 10);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(30, 20);
             this.label1.TabIndex = 24;
@@ -310,7 +310,7 @@
             this.roomView.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.roomView.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.roomView.ForeColor = System.Drawing.Color.White;
-            this.roomView.Location = new System.Drawing.Point(186, 69);
+            this.roomView.Location = new System.Drawing.Point(190, 69);
             this.roomView.Name = "roomView";
             this.roomView.Size = new System.Drawing.Size(49, 20);
             this.roomView.TabIndex = 48;
@@ -392,7 +392,7 @@
             this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(142, 10);
+            this.label8.Location = new System.Drawing.Point(146, 10);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(44, 20);
             this.label8.TabIndex = 47;
@@ -418,7 +418,7 @@
             this.roomSize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.roomSize.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.roomSize.ForeColor = System.Drawing.Color.White;
-            this.roomSize.Location = new System.Drawing.Point(186, 10);
+            this.roomSize.Location = new System.Drawing.Point(190, 10);
             this.roomSize.Name = "roomSize";
             this.roomSize.Size = new System.Drawing.Size(49, 20);
             this.roomSize.TabIndex = 46;
@@ -446,7 +446,7 @@
             this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(139, 69);
+            this.label6.Location = new System.Drawing.Point(143, 69);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(47, 20);
             this.label6.TabIndex = 45;
@@ -524,8 +524,12 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.client_Data1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
+            this.client_Data1.BookRoomControl = null;
+            this.client_Data1.DateFrom = new System.DateTime(((long)(0)));
+            this.client_Data1.DateTo = new System.DateTime(((long)(0)));
             this.client_Data1.Location = new System.Drawing.Point(0, 0);
             this.client_Data1.Name = "client_Data1";
+            this.client_Data1.RoomName = null;
             this.client_Data1.Size = new System.Drawing.Size(703, 527);
             this.client_Data1.TabIndex = 0;
             // 

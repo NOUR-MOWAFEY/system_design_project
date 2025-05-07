@@ -6,7 +6,7 @@ namespace hotel_system
 {
     public partial class Client_Data : UserControl
     {
-        SqlConnection conn;
+
         string strconn = "Data Source=NOURMOWAFEY;Initial Catalog=hotel_management;Integrated Security=True";
 
         public Book_Room BookRoomControl { get; set; }
@@ -74,14 +74,13 @@ namespace hotel_system
                         }
                     }
 
-                    // Insert customer data into the customers table
                     string query = @"
                 INSERT INTO customers (client_id, full_name, phone_no, address, dob, gender, date_from, date_to, room_name)
                 VALUES (@client_id, @full_name, @phone_no, @address, @dob, @gender, @date_from, @date_to, @room_name)";
 
                     using (SqlCommand cmd = new SqlCommand(query, conn))
                     {
-                        cmd.Parameters.AddWithValue("@client_id", int.Parse(id_textbox.Text));
+                        cmd.Parameters.AddWithValue("@client_id", id_textbox.Text);
                         cmd.Parameters.AddWithValue("@full_name", full_name_textbox.Text);
                         cmd.Parameters.AddWithValue("@phone_no", phone_textbox.Text);
                         cmd.Parameters.AddWithValue("@address", address_textbox.Text);
@@ -94,10 +93,10 @@ namespace hotel_system
                         cmd.ExecuteNonQuery();
                     }
 
-                    // Update available_from in the rooms table
+
                     string updateRoomQuery = @"
                 UPDATE rooms 
-                SET available_from = DATEADD(DAY, 1, @date_to)
+                SET room_available_from = DATEADD(DAY, 1, @date_to)
                 WHERE room_name = @room_name";
 
                     using (SqlCommand updateRoomCmd = new SqlCommand(updateRoomQuery, conn))
@@ -107,13 +106,13 @@ namespace hotel_system
                         updateRoomCmd.ExecuteNonQuery();
                     }
 
-                    // Update available_from in rooms table
+
                     try
                     {
                         using (SqlConnection updateConn = new SqlConnection(strconn))
                         {
                             updateConn.Open();
-                            string updateQuery = "UPDATE rooms SET available_from = @available_from WHERE room_id = @room_id";
+                            string updateQuery = "UPDATE rooms SET room_available_from = @available_from WHERE room_id = @room_id";
                             using (SqlCommand updateCmd = new SqlCommand(updateQuery, updateConn))
                             {
                                 updateCmd.Parameters.AddWithValue("@available_from", BookRoomControl.ToDateSelected);
@@ -121,7 +120,7 @@ namespace hotel_system
                                 updateCmd.ExecuteNonQuery();
                             }
                         }
-                        MessageBox.Show("Room availability updated.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        //MessageBox.Show("Room availability updated.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     catch (Exception ex)
                     {
@@ -130,10 +129,9 @@ namespace hotel_system
 
                     MessageBox.Show("Customer booked successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                    // Clear fields and refresh grid view in Book_Room
                     BookRoomControl.ClearFieldsAndRefreshGrid();
 
-                    // Optionally, you can clear fields or make adjustments here
+
                     ClearFields();
                     this.Visible = false;
                 }

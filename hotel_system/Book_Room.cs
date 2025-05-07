@@ -57,7 +57,7 @@ namespace hotel_system
                 roomView.Text = row.Cells["room_view"].Value.ToString();
                 roomBedsNo.Text = row.Cells["room_beds_no"].Value.ToString();
                 roomSize.Text = row.Cells["room_size"].Value.ToString();
-                roomStatus.Text = row.Cells["room_status"].Value.ToString();
+                roomStatus.Text = row.Cells["room_available_from"].Value.ToString();
                 roomPrice.Text = row.Cells["room_price"].Value.ToString();
             }
         }

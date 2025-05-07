@@ -26,7 +26,7 @@ namespace hotel_system
             RefreshUserGrid();
         }
 
-        private void RefreshUserGrid()
+        public void RefreshUserGrid()
         {
             if (conn.State != ConnectionState.Open)
                 conn.Open();
@@ -79,12 +79,13 @@ namespace hotel_system
                 return;
             }
 
-            string insertQuery = "INSERT INTO users (username, password, role) VALUES (@username, @password, @role)";
+            string insertQuery = "INSERT INTO users (username, password, role, date_register) VALUES (@username, @password, @role, @date_register)";
             using (SqlCommand insertCmd = new SqlCommand(insertQuery, conn))
             {
                 insertCmd.Parameters.AddWithValue("@username", username);
                 insertCmd.Parameters.AddWithValue("@password", password);
                 insertCmd.Parameters.AddWithValue("@role", role);
+                insertCmd.Parameters.AddWithValue("@date_register", DateTime.Now);
                 insertCmd.ExecuteNonQuery();
             }
 
@@ -93,6 +94,7 @@ namespace hotel_system
             password_textbox.Clear();
             RefreshUserGrid();
         }
+
 
         private void add_normal_user_button_Click(object sender, EventArgs e)
         {
@@ -131,11 +133,6 @@ namespace hotel_system
             username_textbox.Clear();
             password_textbox.Clear();
             RefreshUserGrid();
-        }
-
-        private void username_textbox_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -25,7 +25,7 @@ namespace hotel_system
             RefreshUserGrid();
         }
 
-        private void RefreshUserGrid()
+        public void RefreshUserGrid()
         {
             if (conn.State != ConnectionState.Open)
                 conn.Open();
@@ -89,8 +89,8 @@ namespace hotel_system
                         }
                         else
                         {
-                            string insertData = "INSERT INTO rooms (room_name, room_beds_no, room_view, room_size, room_price, room_status) " +
-                                                "VALUES (@roomName, @roomBedsNo, @roomView, @roomSize, @roomPrice, 'available')";
+                            string insertData = "INSERT INTO rooms (room_name, room_beds_no, room_view, room_size, room_price) " +
+                                                "VALUES (@roomName, @roomBedsNo, @roomView, @roomSize, @roomPrice)";
 
                             using (SqlCommand cmd = new SqlCommand(insertData, conn))
                             {

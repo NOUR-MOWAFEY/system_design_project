@@ -40,6 +40,8 @@
             this.exit_button = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.kryptonButton1 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.book_Room1 = new hotel_system.Book_Room();
+            this.admin_Rooms1 = new hotel_system.Admin_Rooms();
+            this.admin_AddUser1 = new hotel_system.Admin_AddUser();
             this.sidePanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -139,6 +141,7 @@
             this.book_button.StateTracking.Content.ShortText.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.book_button.TabIndex = 9;
             this.book_button.Values.Text = "Book";
+            this.book_button.Click += new System.EventHandler(this.book_button_Click);
             // 
             // rooms_button
             // 
@@ -425,12 +428,34 @@
             this.book_Room1.Size = new System.Drawing.Size(703, 527);
             this.book_Room1.TabIndex = 1;
             // 
+            // admin_Rooms1
+            // 
+            this.admin_Rooms1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.admin_Rooms1.Location = new System.Drawing.Point(248, 12);
+            this.admin_Rooms1.Name = "admin_Rooms1";
+            this.admin_Rooms1.Size = new System.Drawing.Size(703, 527);
+            this.admin_Rooms1.TabIndex = 2;
+            // 
+            // admin_AddUser1
+            // 
+            this.admin_AddUser1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.admin_AddUser1.Location = new System.Drawing.Point(248, 12);
+            this.admin_AddUser1.Name = "admin_AddUser1";
+            this.admin_AddUser1.Size = new System.Drawing.Size(703, 527);
+            this.admin_AddUser1.TabIndex = 3;
+            // 
             // HomeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.ClientSize = new System.Drawing.Size(963, 551);
+            this.Controls.Add(this.admin_AddUser1);
+            this.Controls.Add(this.admin_Rooms1);
             this.Controls.Add(this.book_Room1);
             this.Controls.Add(this.sidePanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -462,5 +487,7 @@
         private ComponentFactory.Krypton.Toolkit.KryptonButton rooms_button;
         private ComponentFactory.Krypton.Toolkit.KryptonButton customers_button;
         private Book_Room book_Room1;
+        private Admin_Rooms admin_Rooms1;
+        private Admin_AddUser admin_AddUser1;
     }
 }

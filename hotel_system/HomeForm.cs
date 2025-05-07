@@ -16,32 +16,19 @@ namespace hotel_system
 {
     public partial class HomeForm : KryptonForm
     {
-        //DataSet ds = new DataSet();
-        //SqlDataAdapter da;
-        //SqlConnection con;
-
+       
         public HomeForm()
         {
             InitializeComponent();
         }
 
-        void showData_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
 
         private void HomeForm_Load(object sender, EventArgs e)
         {
-            //admin_AddUser1.Visible = false;
-            //admin_Rooms1.Visible = false;
-            //string strConnection = "data source = NourMowafey; initial catalog = master; integrated security = true";
-            //con = new SqlConnection(strConnection);
-            //con.Open();
-            //da = new SqlDataAdapter("select * from users", con);
-            //SqlCommandBuilder cb = new SqlCommandBuilder(da);
-            //da.Fill(ds, "users");
-            //HomeForm homeForm = new HomeForm();
-            //showData.DataSource = ds.Tables["users"];
+            book_Room1.Visible = false;
+            admin_Rooms1.Visible = false;
+            admin_AddUser1.Visible = false;
+          
         }
 
         private void HomeForm_FormClosing(object sender, FormClosingEventArgs e)
@@ -63,14 +50,26 @@ namespace hotel_system
 
         private void rooms_button_Click(object sender, EventArgs e)
         {
-            //admin_Rooms1.Visible = true;
-            //admin_AddUser1.Visible = false;
+            admin_Rooms1.RefreshUserGrid();
+            book_Room1.Visible = false;
+            admin_Rooms1.Visible = true;
+            admin_AddUser1.Visible = false;
         }
 
         private void users_button_Click(object sender, EventArgs e)
         {
-            //admin_Rooms1.Visible = false;
-            //admin_AddUser1.Visible = true;
+            admin_AddUser1.RefreshUserGrid();
+            book_Room1.Visible = false;
+            admin_Rooms1.Visible = false;
+            admin_AddUser1.Visible = true;
+        }
+
+        private void book_button_Click(object sender, EventArgs e)
+        {
+            book_Room1.RefreshRoomsGrid();
+            book_Room1.Visible = true;
+            admin_Rooms1.Visible = false;
+            admin_AddUser1.Visible = false;
         }
     }
 }

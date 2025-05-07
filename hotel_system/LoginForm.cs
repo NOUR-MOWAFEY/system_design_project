@@ -16,7 +16,6 @@ namespace hotel_system
     {
 
         DataSet ds = new DataSet();
-        //SqlDataAdapter da;
         SqlConnection conn;
 
         public LoginForm()
@@ -73,46 +72,37 @@ namespace hotel_system
 
         private void kryptonButton1_Click(object sender, EventArgs e)
         {
+            string username = username_textbox.Text;
+            string password = password_textbox.Text;
 
-            HomeForm homeForm = new HomeForm();
-            homeForm.Show();
-            this.Hide();
-            //    string username, password;
+            if (username == "Username" || password == "Password")
+            {
+                MessageBox.Show("All Fields must be filled in", "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
 
-            //    username = username_textbox.Text;
-            //    password = password_textbox.Text;
+            string query = "SELECT role FROM users WHERE username = @username AND password = @password";
+            SqlCommand cmd = new SqlCommand(query, conn);
+            cmd.Parameters.AddWithValue("@username", username);
+            cmd.Parameters.AddWithValue("@password", password);
 
-            //    if(username_textbox.Text == "Username" || password_textbox.Text == "Password") 
-            //    {
-            //        MessageBox.Show("All Fields must be filled in", "Information Message" , MessageBoxButtons.OK, MessageBoxIcon.Information);
+            object result = cmd.ExecuteScalar();
 
-            //    }
+            if (result != null)
+            {
+                string role = result.ToString();
 
-            //    else
-            //    {
-
-
-            //        string query = "SELECT COUNT(*) FROM users WHERE username = @username AND password = @password";
-            //        SqlCommand cmd = new SqlCommand(query, conn);
-            //        cmd.Parameters.AddWithValue("@username", username_textbox.Text);
-            //        cmd.Parameters.AddWithValue("@password", password_textbox.Text);
-
-            //        int count = (int)cmd.ExecuteScalar();
-
-            //        if (count > 0)
-            //        {
-            //            HomeForm homeForm1 = new HomeForm();
-            //            homeForm1.Show();
-            //            this.Hide();
-            //        }
-            //        else
-            //        {
-            //            MessageBox.Show("Invalid Username Or Password", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //        }
-
-            //    }
-
+                HomeForm homeForm1 = new HomeForm();
+                homeForm1.LoggedInUserRole = role;
+                homeForm1.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Invalid Username Or Password", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
+
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {

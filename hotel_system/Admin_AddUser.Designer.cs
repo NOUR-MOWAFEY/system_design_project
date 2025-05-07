@@ -92,7 +92,7 @@
             this.password_textbox.StateCommon.Border.Width = 1;
             this.password_textbox.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.password_textbox.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5);
-            this.password_textbox.TabIndex = 35;
+            this.password_textbox.TabIndex = 2;
             // 
             // username_textbox
             // 
@@ -109,7 +109,7 @@
             this.username_textbox.StateCommon.Border.Width = 1;
             this.username_textbox.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.username_textbox.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5);
-            this.username_textbox.TabIndex = 34;
+            this.username_textbox.TabIndex = 1;
             // 
             // add_normal_user_button
             // 
@@ -162,7 +162,7 @@
             this.add_normal_user_button.StateTracking.Border.Width = 1;
             this.add_normal_user_button.StateTracking.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(140)))), ((int)(((byte)(255)))));
             this.add_normal_user_button.StateTracking.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(140)))), ((int)(((byte)(255)))));
-            this.add_normal_user_button.TabIndex = 33;
+            this.add_normal_user_button.TabIndex = 4;
             this.add_normal_user_button.Values.Text = "Add Normal User";
             this.add_normal_user_button.Click += new System.EventHandler(this.add_normal_user_button_Click);
             // 
@@ -217,7 +217,7 @@
             this.add_admin_user_button.StateTracking.Border.Width = 1;
             this.add_admin_user_button.StateTracking.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(140)))), ((int)(((byte)(255)))));
             this.add_admin_user_button.StateTracking.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(140)))), ((int)(((byte)(255)))));
-            this.add_admin_user_button.TabIndex = 31;
+            this.add_admin_user_button.TabIndex = 3;
             this.add_admin_user_button.Values.Text = "Add Admin User";
             this.add_admin_user_button.Click += new System.EventHandler(this.add_admin_user_button_Click);
             // 
@@ -270,7 +270,7 @@
             this.delete_button.StateTracking.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
             this.delete_button.StateTracking.Border.Rounding = 20;
             this.delete_button.StateTracking.Border.Width = 1;
-            this.delete_button.TabIndex = 30;
+            this.delete_button.TabIndex = 5;
             this.delete_button.Values.Text = "Delete";
             this.delete_button.Click += new System.EventHandler(this.delete_button_Click);
             // 

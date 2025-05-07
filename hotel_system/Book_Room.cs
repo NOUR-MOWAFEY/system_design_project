@@ -121,23 +121,24 @@ namespace hotel_system
             DateTime fromDate = fromTimePicker.Value;
             DateTime toDate = toTimePicker.Value;
 
+            if (fromDate.Date >= toDate.Date)
+            {
+                MessageBox.Show("Check-in and check-out dates cannot be the same.", "Invalid Dates", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(roomID.Text) || roomID.Text == "--------")
+            {
+                MessageBox.Show("Please select a room from the grid before booking.", "Room Not Selected", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
             client_Data1.BookRoomControl = this;
-
-            if (toDate <= fromDate)
-            {
-                MessageBox.Show("Please choose a valid check-in and check-out date before booking.", "Missing Dates", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
-            }
-
-            if (string.IsNullOrWhiteSpace(roomID.Text))
-            {
-                MessageBox.Show("Please select a room before booking.", "Missing Room", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
-            }
 
             client_Data1.Visible = true;
             client_Data1.BringToFront();
         }
+
 
         public void ClearFieldsAndRefreshGrid()
         {
@@ -145,7 +146,7 @@ namespace hotel_system
             roomView.Text = "--------";
             roomBedsNo.Text = "--------";
             roomSize.Text = "--------";
-            roomStatus.Text = "--------";
+            roomStatus.Text = "----------------";
             roomPrice.Text = "--------";
             total_price.Text = "--------";
             toTimePicker.Value = DateTime.Now;

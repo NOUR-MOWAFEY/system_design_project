@@ -80,7 +80,7 @@
             this.gender_combobox.StateCommon.ComboBox.Border.Rounding = 20;
             this.gender_combobox.StateCommon.ComboBox.Border.Width = 1;
             this.gender_combobox.StateCommon.ComboBox.Content.Padding = new System.Windows.Forms.Padding(5, -1, -1, -1);
-            this.gender_combobox.TabIndex = 79;
+            this.gender_combobox.TabIndex = 5;
             this.gender_combobox.Text = "Gender";
             // 
             // label5
@@ -184,7 +184,7 @@
             this.done_button.StateTracking.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
             this.done_button.StateTracking.Border.Rounding = 20;
             this.done_button.StateTracking.Border.Width = 1;
-            this.done_button.TabIndex = 74;
+            this.done_button.TabIndex = 6;
             this.done_button.Values.Text = "Done";
             this.done_button.Click += new System.EventHandler(this.done_button_Click);
             // 
@@ -395,7 +395,7 @@
             this.full_name_textbox.StateCommon.Border.Width = 1;
             this.full_name_textbox.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.full_name_textbox.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.full_name_textbox.TabIndex = 72;
+            this.full_name_textbox.TabIndex = 0;
             // 
             // dob_timepicker
             // 
@@ -413,7 +413,7 @@
             this.dob_timepicker.StateCommon.Border.Rounding = 20;
             this.dob_timepicker.StateCommon.Border.Width = 1;
             this.dob_timepicker.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, -1, -1, -1);
-            this.dob_timepicker.TabIndex = 71;
+            this.dob_timepicker.TabIndex = 4;
             // 
             // phone_textbox
             // 
@@ -431,7 +431,7 @@
             this.phone_textbox.StateCommon.Border.Width = 1;
             this.phone_textbox.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.phone_textbox.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.phone_textbox.TabIndex = 70;
+            this.phone_textbox.TabIndex = 1;
             // 
             // id_textbox
             // 
@@ -449,7 +449,7 @@
             this.id_textbox.StateCommon.Border.Width = 1;
             this.id_textbox.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.id_textbox.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.id_textbox.TabIndex = 69;
+            this.id_textbox.TabIndex = 2;
             // 
             // address_textbox
             // 
@@ -467,7 +467,7 @@
             this.address_textbox.StateCommon.Border.Width = 1;
             this.address_textbox.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.address_textbox.StateCommon.Content.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.address_textbox.TabIndex = 68;
+            this.address_textbox.TabIndex = 3;
             // 
             // kryptonButton3
             // 

@@ -86,7 +86,7 @@
             this.kryptonPanel2.Controls.Add(this.rooms_grid_view);
             this.kryptonPanel2.Location = new System.Drawing.Point(3, 98);
             this.kryptonPanel2.Name = "kryptonPanel2";
-            this.kryptonPanel2.Size = new System.Drawing.Size(421, 420);
+            this.kryptonPanel2.Size = new System.Drawing.Size(691, 197);
             this.kryptonPanel2.StateCommon.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.kryptonPanel2.StateCommon.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.kryptonPanel2.TabIndex = 16;
@@ -102,18 +102,16 @@
             this.rooms_grid_view.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.rooms_grid_view.Location = new System.Drawing.Point(3, 3);
             this.rooms_grid_view.Name = "rooms_grid_view";
-            this.rooms_grid_view.Size = new System.Drawing.Size(415, 414);
+            this.rooms_grid_view.Size = new System.Drawing.Size(685, 191);
             this.rooms_grid_view.TabIndex = 0;
             // 
             // total_price
             // 
-            this.total_price.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.total_price.AutoSize = true;
             this.total_price.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.total_price.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.total_price.ForeColor = System.Drawing.Color.White;
-            this.total_price.Location = new System.Drawing.Point(146, 280);
+            this.total_price.Location = new System.Drawing.Point(275, 42);
             this.total_price.Name = "total_price";
             this.total_price.Size = new System.Drawing.Size(64, 20);
             this.total_price.TabIndex = 43;
@@ -121,13 +119,11 @@
             // 
             // label12
             // 
-            this.label12.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(58, 280);
+            this.label12.Location = new System.Drawing.Point(187, 42);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(87, 20);
             this.label12.TabIndex = 42;
@@ -135,12 +131,11 @@
             // 
             // roomPrice
             // 
-            this.roomPrice.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.roomPrice.AutoSize = true;
             this.roomPrice.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.roomPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.roomPrice.ForeColor = System.Drawing.Color.White;
-            this.roomPrice.Location = new System.Drawing.Point(77, 69);
+            this.roomPrice.Location = new System.Drawing.Point(84, 42);
             this.roomPrice.Name = "roomPrice";
             this.roomPrice.Size = new System.Drawing.Size(49, 20);
             this.roomPrice.TabIndex = 31;
@@ -148,25 +143,23 @@
             // 
             // roomStatus
             // 
-            this.roomStatus.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.roomStatus.AutoSize = true;
             this.roomStatus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.roomStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.roomStatus.ForeColor = System.Drawing.Color.White;
-            this.roomStatus.Location = new System.Drawing.Point(190, 38);
+            this.roomStatus.Location = new System.Drawing.Point(295, 14);
             this.roomStatus.Name = "roomStatus";
-            this.roomStatus.Size = new System.Drawing.Size(49, 20);
+            this.roomStatus.Size = new System.Drawing.Size(89, 20);
             this.roomStatus.TabIndex = 30;
-            this.roomStatus.Text = "--------";
+            this.roomStatus.Text = "----------------";
             // 
             // roomBedsNo
             // 
-            this.roomBedsNo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.roomBedsNo.AutoSize = true;
             this.roomBedsNo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.roomBedsNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.roomBedsNo.ForeColor = System.Drawing.Color.White;
-            this.roomBedsNo.Location = new System.Drawing.Point(77, 38);
+            this.roomBedsNo.Location = new System.Drawing.Point(84, 98);
             this.roomBedsNo.Name = "roomBedsNo";
             this.roomBedsNo.Size = new System.Drawing.Size(49, 20);
             this.roomBedsNo.TabIndex = 29;
@@ -174,12 +167,11 @@
             // 
             // roomID
             // 
-            this.roomID.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.roomID.AutoSize = true;
             this.roomID.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.roomID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.roomID.ForeColor = System.Drawing.Color.White;
-            this.roomID.Location = new System.Drawing.Point(77, 10);
+            this.roomID.Location = new System.Drawing.Point(84, 14);
             this.roomID.Name = "roomID";
             this.roomID.Size = new System.Drawing.Size(49, 20);
             this.roomID.TabIndex = 28;
@@ -187,12 +179,11 @@
             // 
             // label4
             // 
-            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(28, 69);
+            this.label4.Location = new System.Drawing.Point(30, 42);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(48, 20);
             this.label4.TabIndex = 27;
@@ -200,25 +191,23 @@
             // 
             // label3
             // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(140, 38);
+            this.label3.Location = new System.Drawing.Point(187, 14);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(50, 20);
+            this.label3.Size = new System.Drawing.Size(112, 20);
             this.label3.TabIndex = 26;
-            this.label3.Text = "From:";
+            this.label3.Text = "Available from:";
             // 
             // label2
             // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(26, 38);
+            this.label2.Location = new System.Drawing.Point(28, 98);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(50, 20);
             this.label2.TabIndex = 25;
@@ -226,12 +215,11 @@
             // 
             // label1
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(46, 10);
+            this.label1.Location = new System.Drawing.Point(48, 14);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(30, 20);
             this.label1.TabIndex = 24;
@@ -250,10 +238,8 @@
             // 
             // book_room_button
             // 
-            this.book_room_button.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.book_room_button.Location = new System.Drawing.Point(15, 8);
+            this.book_room_button.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.book_room_button.Location = new System.Drawing.Point(229, 8);
             this.book_room_button.Name = "book_room_button";
             this.book_room_button.OverrideDefault.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.book_room_button.OverrideDefault.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
@@ -266,7 +252,7 @@
             this.book_room_button.OverrideDefault.Border.Rounding = 20;
             this.book_room_button.OverrideDefault.Border.Width = 1;
             this.book_room_button.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
-            this.book_room_button.Size = new System.Drawing.Size(216, 37);
+            this.book_room_button.Size = new System.Drawing.Size(227, 37);
             this.book_room_button.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.book_room_button.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.book_room_button.StateCommon.Border.Color1 = System.Drawing.Color.White;
@@ -300,17 +286,16 @@
             this.book_room_button.StateTracking.Border.Rounding = 20;
             this.book_room_button.StateTracking.Border.Width = 1;
             this.book_room_button.TabIndex = 41;
-            this.book_room_button.Values.Text = "Book";
+            this.book_room_button.Values.Text = "Add Client Info";
             this.book_room_button.Click += new System.EventHandler(this.book_room_button_Click);
             // 
             // roomView
             // 
-            this.roomView.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.roomView.AutoSize = true;
             this.roomView.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.roomView.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.roomView.ForeColor = System.Drawing.Color.White;
-            this.roomView.Location = new System.Drawing.Point(190, 69);
+            this.roomView.Location = new System.Drawing.Point(84, 70);
             this.roomView.Name = "roomView";
             this.roomView.Size = new System.Drawing.Size(49, 20);
             this.roomView.TabIndex = 48;
@@ -318,9 +303,8 @@
             // 
             // schedule_button
             // 
-            this.schedule_button.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.schedule_button.Location = new System.Drawing.Point(143, 214);
+            this.schedule_button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.schedule_button.Location = new System.Drawing.Point(559, 113);
             this.schedule_button.Name = "schedule_button";
             this.schedule_button.OverrideDefault.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.schedule_button.OverrideDefault.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
@@ -333,7 +317,7 @@
             this.schedule_button.OverrideDefault.Border.Rounding = 20;
             this.schedule_button.OverrideDefault.Border.Width = 1;
             this.schedule_button.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
-            this.schedule_button.Size = new System.Drawing.Size(112, 37);
+            this.schedule_button.Size = new System.Drawing.Size(114, 37);
             this.schedule_button.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.schedule_button.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.schedule_button.StateCommon.Border.Color1 = System.Drawing.Color.White;
@@ -372,10 +356,11 @@
             // 
             // fromTimePicker
             // 
-            this.fromTimePicker.Location = new System.Drawing.Point(62, 126);
+            this.fromTimePicker.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.fromTimePicker.Location = new System.Drawing.Point(459, 29);
             this.fromTimePicker.Name = "fromTimePicker";
             this.fromTimePicker.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2010Silver;
-            this.fromTimePicker.Size = new System.Drawing.Size(193, 33);
+            this.fromTimePicker.Size = new System.Drawing.Size(214, 33);
             this.fromTimePicker.StateCommon.Border.Color1 = System.Drawing.Color.White;
             this.fromTimePicker.StateCommon.Border.Color2 = System.Drawing.Color.White;
             this.fromTimePicker.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
@@ -387,12 +372,11 @@
             // 
             // label8
             // 
-            this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(146, 10);
+            this.label8.Location = new System.Drawing.Point(34, 126);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(44, 20);
             this.label8.TabIndex = 47;
@@ -400,12 +384,12 @@
             // 
             // label9
             // 
-            this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(10, 133);
+            this.label9.Location = new System.Drawing.Point(407, 35);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(46, 20);
             this.label9.TabIndex = 37;
@@ -413,12 +397,11 @@
             // 
             // roomSize
             // 
-            this.roomSize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.roomSize.AutoSize = true;
             this.roomSize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.roomSize.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.roomSize.ForeColor = System.Drawing.Color.White;
-            this.roomSize.Location = new System.Drawing.Point(190, 10);
+            this.roomSize.Location = new System.Drawing.Point(84, 126);
             this.roomSize.Name = "roomSize";
             this.roomSize.Size = new System.Drawing.Size(49, 20);
             this.roomSize.TabIndex = 46;
@@ -426,10 +409,11 @@
             // 
             // toTimePicker
             // 
-            this.toTimePicker.Location = new System.Drawing.Point(62, 174);
+            this.toTimePicker.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.toTimePicker.Location = new System.Drawing.Point(459, 74);
             this.toTimePicker.Name = "toTimePicker";
             this.toTimePicker.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2010Silver;
-            this.toTimePicker.Size = new System.Drawing.Size(193, 33);
+            this.toTimePicker.Size = new System.Drawing.Size(214, 33);
             this.toTimePicker.StateCommon.Border.Color1 = System.Drawing.Color.White;
             this.toTimePicker.StateCommon.Border.Color2 = System.Drawing.Color.White;
             this.toTimePicker.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
@@ -441,12 +425,11 @@
             // 
             // label6
             // 
-            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(143, 69);
+            this.label6.Location = new System.Drawing.Point(31, 70);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(47, 20);
             this.label6.TabIndex = 45;
@@ -454,12 +437,12 @@
             // 
             // label10
             // 
-            this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(20, 181);
+            this.label10.Location = new System.Drawing.Point(419, 80);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(27, 20);
             this.label10.TabIndex = 39;
@@ -467,7 +450,7 @@
             // 
             // panel3
             // 
-            this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel3.Controls.Add(this.roomView);
             this.panel3.Controls.Add(this.schedule_button);
@@ -489,9 +472,9 @@
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.label2);
             this.panel3.Controls.Add(this.label1);
-            this.panel3.Location = new System.Drawing.Point(430, 98);
+            this.panel3.Location = new System.Drawing.Point(3, 301);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(264, 420);
+            this.panel3.Size = new System.Drawing.Size(691, 216);
             this.panel3.TabIndex = 37;
             // 
             // panel4
@@ -499,9 +482,9 @@
             this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel4.Controls.Add(this.book_room_button);
-            this.panel4.Location = new System.Drawing.Point(15, 364);
+            this.panel4.Location = new System.Drawing.Point(3, 160);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(246, 53);
+            this.panel4.Size = new System.Drawing.Size(685, 53);
             this.panel4.TabIndex = 44;
             // 
             // main_panel

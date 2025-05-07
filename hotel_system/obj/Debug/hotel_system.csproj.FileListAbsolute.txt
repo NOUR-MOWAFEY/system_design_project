@@ -42,10 +42,10 @@ C:\Users\NourMowafey\Desktop\Hotel_ONE\system_design_project\hotel_system\bin\De
 C:\Users\NourMowafey\Desktop\Hotel_ONE\system_design_project\hotel_system\bin\Debug\hotel_system.pdb
 C:\Users\NourMowafey\Desktop\Hotel_ONE\system_design_project\hotel_system\obj\Debug\hotel_system.csproj.AssemblyReference.cache
 C:\Users\NourMowafey\Desktop\Hotel_ONE\system_design_project\hotel_system\obj\Debug\hotel_system.Admin_AddUser.resources
-C:\Users\NourMowafey\Desktop\Hotel_ONE\system_design_project\hotel_system\obj\Debug\hotel_system.Admin_Dashboard.resources
 C:\Users\NourMowafey\Desktop\Hotel_ONE\system_design_project\hotel_system\obj\Debug\hotel_system.Admin_Rooms.resources
 C:\Users\NourMowafey\Desktop\Hotel_ONE\system_design_project\hotel_system\obj\Debug\hotel_system.Book_Room.resources
 C:\Users\NourMowafey\Desktop\Hotel_ONE\system_design_project\hotel_system\obj\Debug\hotel_system.Client_Data.resources
+C:\Users\NourMowafey\Desktop\Hotel_ONE\system_design_project\hotel_system\obj\Debug\hotel_system.Customers.resources
 C:\Users\NourMowafey\Desktop\Hotel_ONE\system_design_project\hotel_system\obj\Debug\hotel_system.LoginForm.resources
 C:\Users\NourMowafey\Desktop\Hotel_ONE\system_design_project\hotel_system\obj\Debug\hotel_system.HomeForm.resources
 C:\Users\NourMowafey\Desktop\Hotel_ONE\system_design_project\hotel_system\obj\Debug\hotel_system.Properties.Resources.resources
